@@ -1,0 +1,76 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  color: white;
+}
+.game button {
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-newGame {
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #e67e22;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #d35400;
+  transition: all 0.1s;
+}
+.button-newGame:active {
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 2px;
+}
+.game .row {
+  margin-bottom: 3px;
+  display: flex;
+  gap: 3px;
+}
+.game button.winner {
+  background-color: rgb(78, 218, 3);
+}
+.game button.tie {
+  background-color: rgb(168, 168, 168);
+}
+.message {
+  font-size: 24px;
+  height: 30px;
+  color: white;
+}
+.js-cell.occupied:hover {
+  cursor: auto;
+}
+#question {
+  font-size: 60px;
+}
+#options button {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 40px;
+  margin-right: 20px;
+}
+#options button:hover {
+  background-color: white;
+  color: black;
+}
