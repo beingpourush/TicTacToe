@@ -14,7 +14,7 @@ Play with a friend, take turns as X and O, and see who wins!
 ```
 TicTacToe/
 │
-├── TicTacToe.html   # Main HTML structure
+├── index.html   # Main HTML structure
 ├── TicTacToe.css    # Styling for the game
 ├── TicTacToe.js     # Game logic and interactions
 └── README.md        # Project documentation
